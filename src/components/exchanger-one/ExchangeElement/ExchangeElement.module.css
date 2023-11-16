@@ -1,0 +1,64 @@
+.quantity{
+    width: 40%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 60%;
+    transform: translate(0, -50%);
+    margin-left: 5px;
+  }
+
+  .choise{
+    position: absolute;
+    left: 0;
+    right: 5%;
+    margin: 0 auto;
+    top: 60%;
+    transform: translate(0, -50%);
+    width: 10%;
+
+  }
+
+
+  .exchange p{
+    position: absolute;
+    left: 55%;
+    right: 0;
+    margin: 0 auto;
+    top: 57%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+  }
+
+    .got {
+      width: 40%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      top: 70%;
+      transform: translate(0, -50%);
+      margin-left: 5px;
+    }
+
+    .currency_got{
+      position: absolute;
+      left: 0;
+      right: 5%;
+      margin: 0 auto;
+      top: 70%;
+      transform: translate(0, -50%);
+      width: 10%;
+    }
+
+    .output p{
+      position: absolute;
+      left: 55%;
+      right: 0;
+      margin: 0 auto;
+      top: 67%;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      color: black;
+
+    }

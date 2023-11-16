@@ -1,0 +1,33 @@
+.header {
+    grid-area: header;
+    height: 50px;
+    width: 95%;
+    background-color: rgb(57, 143, 53);
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+
+.header img {
+    height: 40px;
+    margin: 5px;
+}
+
+.btn{
+position: absolute;
+top: 10px;
+left: 940px;
+text-decoration: none;
+
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
+
