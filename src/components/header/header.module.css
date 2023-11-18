@@ -1,0 +1,60 @@
+.header {
+    grid-area: header;
+    height: 50px;
+    width: 95%;
+    background-color: rgb(57, 143, 53);
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+
+.header img {
+    height: 40px;
+    margin: 5px;
+}
+
+.btn{
+position: absolute;
+left: 1%;
+right: 0%;
+margin: 0 auto;
+top: 50%;
+transform: translate(0, -50%);
+width: 60%;
+height: 60%;
+
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.btn2{
+    position: absolute;
+left: 45%;
+right: 0%;
+margin: 0 auto;
+top: 50%;
+transform: translate(0, -50%);
+width: 60%;
+height: 60%;
+}
+
+.btn2 a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
+
+
+
+
+
+
