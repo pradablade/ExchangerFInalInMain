@@ -1,5 +1,10 @@
 import { rerenderTree } from "../render";
 import React from "react";
+import {useState} from "react";
+
+
+
+
 
 const response = await fetch("https://www.cbr-xml-daily.ru/daily_json.js");
 const data = await response.json();
@@ -21,7 +26,6 @@ result = Object.assign({}, result.Valute, { RUB: RUB });
 
 export let allValute = Object.values(result1.Valute);
 
-console.log(allValute)
 
 
 const vlauteVaribles = allValute.map((valute) => {
@@ -89,6 +93,9 @@ export function allValuteChek(a) {
         </div>
     )
 }
+
+
+  
 
 
 export default state

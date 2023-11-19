@@ -16,7 +16,7 @@ const ExchangeElement = (props) => {
     let onQuantityChange = () => {
         let int = quantityElement.current.value
         props.updateQuantityElement(int)
-        {console.log(props.state.currencyGotValue)}
+        { console.log(props.state.currencyGotValue) }
     }
 
     return (
@@ -26,7 +26,7 @@ const ExchangeElement = (props) => {
 
             <div className={classes.input}>
 
-                <select onChange={e => {props.updateQuantityCurrency(e.target.value)}} ref={quantityDraft} className={classes.choise} value={props.state.quantityQurrency}>
+                <select onChange={e => { props.updateQuantityCurrency(e.target.value) }} ref={quantityDraft} className={classes.choise} value={props.state.quantityQurrency}>
                     <option value={"RUB"}>RUB</option>
                     <option value={"EUR"}>EUR</option>
                     <option value={"USD"}>USD</option>
@@ -41,9 +41,9 @@ const ExchangeElement = (props) => {
 
                 <p>вы получаете </p>
 
-                <input type="number" ref={currencyGotElement} className={classes.got} value={props.state.currencyGotValue} readOnly/>
+                <input type="number" ref={currencyGotElement} className={classes.got} value={props.state.currencyGotValue} readOnly />
 
-                <select ref={gotDraft} onChange={e => {props.updategotCurrency(e.target.value)}} className={classes.currency_got} value={props.state.gotCurrency}>
+                <select ref={gotDraft} onChange={e => { props.updategotCurrency(e.target.value) }} className={classes.currency_got} value={props.state.gotCurrency}>
                     <option value={"RUB"}>RUB</option>
                     <option value={"EUR"}>EUR</option>
                     <option value={"USD"}>USD</option>
@@ -53,4 +53,7 @@ const ExchangeElement = (props) => {
         </div>
     )
 }
+
 export default ExchangeElement
+
+
